@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>imgClicked</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<img id="diamond" alt="Diamond" src="img/diamond.png">
+		<img id="circle"  alt="Circle"  src="img/circle.png">
+		
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/imgClicked.js"></script>
+		<script>
+			$(document).click(function(e){
+				console.log(imgClicked(e.pageX, e.pageY));
+			});
+		</script>
+	</body>
+</html>

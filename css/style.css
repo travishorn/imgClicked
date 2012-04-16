@@ -1,0 +1,15 @@
+img {
+	position: absolute;
+}
+
+img#diamond {
+	top: 50px;
+	left: 50px;
+	z-index: 1;
+}
+
+img#circle {
+	top: 50px;
+	left: 150px;
+	z-index: 2;
+}
